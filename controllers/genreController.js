@@ -1,3 +1,5 @@
+var Book = require('../models/book');
+var async = require('async');
 var Genre = require('../models/genre');
 
 // Display list of all Genre.
